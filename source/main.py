@@ -44,3 +44,5 @@ while True:
         display.write_scale(fretboard.structure.name)
         display.write_structuretype(structure_names[fretboard.structuretype])
         display.write_scale_notes(fretboard.rootNote, fretboard.structure.notes, fretboard.structure.colors)
+        
+    #TODO implement structure for switching between scale positions, etc
